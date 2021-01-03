@@ -48,6 +48,11 @@ export default {
   '@nuxtjs/pwa',
   '@nuxtjs/toast'
   ],
+  bootstrapVue: {
+    icons: false,
+    components: ['BContainer', 'BRow', 'BCol', 'BFormInput'],
+    directives: ['VBModal', 'VBPopover', 'VBTooltip', 'VBScrollspy']
+  },
   axios: {
     baseURL: 'http://localhost:8000'
   },
@@ -56,6 +61,10 @@ export default {
   },
   build: {
     extend (config, ctx) {
+    },
+    babel: {
+      babelrc: false,
+      compact: false
     }
   }
 };
