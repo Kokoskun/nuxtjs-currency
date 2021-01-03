@@ -1,4 +1,4 @@
-# NuxtJS-Currency
+# NuxtJS-Currency (SSR)
 
 > NuxtJS Currency (Front-End Service)
 
@@ -18,5 +18,8 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+
+If want to connect api (nuxt.config.js)
+`env.isApi=true` default(false) and setup `axios.baseURL=URL_API`
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
