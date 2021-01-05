@@ -23,3 +23,7 @@ If want to connect api (nuxt.config.js)
 `env.isApi=true` default(false) and setup `axios.baseURL=URL_API`
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Setup Docker (Dev)
+Build: `docker build -t nuxtjs-currency .`
+Run: `docker run -it -p 3000:3000 nuxtjs-tutorial`
