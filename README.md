@@ -26,4 +26,4 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Setup Docker (Dev)
 Build: `docker build -t nuxtjs-currency .`
-Run: `docker run -it -p 3000:3000 nuxtjs-tutorial`
+Run: `docker run -it -p 3000:3000 nuxtjs-currency`
