@@ -1,10 +1,7 @@
 export default {
-  mode: 'universal',
+  ssr: true,
   env: {
     isApi: false
-  },
-  server: {
-    port: 8080
   },
   head: {
     title: process.env.npm_package_name || '',
