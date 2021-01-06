@@ -88,3 +88,10 @@ sw.*
 
 # Vim swap files
 *.swp
+
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+.vscode
